@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>T. SivaSankari — Cybersecurity Resume</title>
+<style>
+  :root {
+    --primary: #0f172a;
+    --accent: #0284c7;
+    --text: #334155;
+    --text-dark: #0f172a;
+    --border: #cbd5e1;
+    --bg-tag: #f8fafc;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--text);
+    background: #f1f5f9;
+    line-height: 1.36;
+    font-size: 8.8pt;
+    padding: 16px;
+  }
+  .page {
+    max-width: 8.3in;
+    margin: 0 auto;
+    background: #fff;
+    padding: 26px 32px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    border-radius: 4px;
+  }
+  @media print {
+    body { background: #fff; padding: 0; }
+    .page { box-shadow: none; padding: 18px 24px; max-width: 100%; border-radius: 0; }
+    @page { size: letter; margin: 0.28in 0.32in; }
+    .no-print { display: none !important; }
+  }
+  
+  /* Header */
+  .header { text-align: center; border-bottom: 2px solid var(--primary); padding-bottom: 6px; margin-bottom: 8px; }
+  h1 { font-size: 19pt; font-weight: 800; color: var(--text-dark); letter-spacing: -0.02em; margin-bottom: 2px; }
+  .tagline { font-size: 9.2pt; color: var(--accent); font-weight: 700; margin-bottom: 4px; }
+  .contact { font-size: 8.3pt; color: #475569; display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; }
+  .contact a { color: var(--text-dark); text-decoration: none; font-weight: 600; }
+  .contact a:hover { text-decoration: underline; color: var(--accent); }
+
+  /* Sections */
+  .section { margin-bottom: 8px; }
+  .section:last-child { margin-bottom: 0; }
+  .section-title {
+    font-size: 9.6pt;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-dark);
+    border-bottom: 1.2px solid var(--border);
+    padding-bottom: 1.5px;
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+  }
+
+  /* Profile */
+  .profile-text { font-size: 8.5pt; color: var(--text); text-align: justify; line-height: 1.34; }
+
+  /* Items */
+  .item { margin-bottom: 5px; }
+  .item:last-child { margin-bottom: 0; }
+  .item-header { display: flex; justify-content: space-between; align-items: baseline; font-size: 9pt; }
+  .item-title { font-weight: 750; color: var(--text-dark); }
+  .item-subtitle { color: var(--accent); font-weight: 600; font-size: 8.4pt; }
+  .item-date { font-size: 8.1pt; color: #64748b; font-weight: 600; }
+  .bullets { list-style: disc; margin-left: 15px; margin-top: 1.5px; }
+  .bullets li { margin-bottom: 1.5px; font-size: 8.4pt; color: var(--text); line-height: 1.33; }
+  .bullets li strong { color: var(--text-dark); }
+
+  /* Skills Grid */
+  .skills-block { display: flex; flex-direction: column; gap: 2px; font-size: 8.3pt; }
+  .skill-row { display: flex; }
+  .skill-label { width: 145px; font-weight: 750; color: var(--text-dark); flex-shrink: 0; }
+  .skill-items { color: var(--text); }
+
+  /* Print action bar */
+  .print-bar {
+    max-width: 8.3in;
+    margin: 0 auto 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0f172a;
+    color: #fff;
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-size: 8.8pt;
+  }
+  .print-btn {
+    background: #0284c7;
+    color: #fff;
+    border: none;
+    padding: 5px 12px;
+    border-radius: 4px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 8.5pt;
+  }
+  .print-btn:hover { background: #0369a1; }
+</style>
+</head>
+<body>
+
+<div class="print-bar no-print">
+  <span>📄 <strong>T. SivaSankari — 1-Page ATS-Optimized Cybersecurity Resume (Updated with Police Internship &amp; H7CTF)</strong></span>
+  <button class="print-btn" onclick="window.print()">🖨️ Print / Save as PDF</button>
+</div>
+
+<div class="page">
+  <!-- Header -->
+  <header class="header">
+    <h1>T. SivaSankari</h1>
+    <div class="tagline">Cybersecurity Engineer | Defensive Security &amp; SOC Analyst | Digital Forensics</div>
+    <div class="contact">
+      <span>📞 +91 9488606503</span>
+      <span>✉️ <a href="mailto:sivasankari.t.2024.csecs@rajalakshmi.edu.in">sivasankari.t.2024.csecs@rajalakshmi.edu.in</a></span>
+      <span>📍 Chennai / Tirunelveli, TN</span>
+      <span>🔗 <a href="https://linkedin.com/in/sivasankari" target="_blank">linkedin.com/in/sivasankari</a></span>
+      <span>💻 <a href="https://github.com/Sivasankari-T03" target="_blank">github.com/Sivasankari-T03</a></span>
+    </div>
+  </header>
+
+  <!-- Profile -->
+  <section class="section">
+    <div class="section-title">Professional Summary</div>
+    <p class="profile-text">
+      <strong>Cybersecurity engineering undergraduate</strong> with verified hands-on experience in <strong>law enforcement cybercrime investigation systems, SIEM detection engineering, and application security hardening</strong>. Completed an internship at the <strong>Tamil Nadu Police Cyber Crime Wing Headquarters</strong>, hardening financial cybercrime investigation platforms, resolving 28 SonarCloud SAST issues, and implementing 2FA/RBAC. Developer of <strong>LabTrace SOC</strong> (central hotspot SIEM &amp; kernel ARP monitor) with proven national CTF track record (H7CTF 2026, Sudarshan CTF).
+    </p>
+  </section>
+
+  <!-- Experience -->
+  <section class="section">
+    <div class="section-title">Cybersecurity Experience</div>
+
+    <!-- Tamil Nadu Police Cyber Crime Wing -->
+    <div class="item">
+      <div class="item-header">
+        <span class="item-title">Tamil Nadu Police Cyber Crime Wing, Headquarters</span>
+        <span class="item-date">Jun 2026 – Jul 2026</span>
+      </div>
+      <div class="item-subtitle">Cyber Security &amp; Digital Forensics Intern — Fund Trail Analysis System v3.0 | Chennai</div>
+      <ul class="bullets">
+        <li>Engineered security and forensic modules for <strong>Fund Trail Analysis System v3.0</strong>, a production platform enabling Investigation Officers to trace financial cybercrime transactions into interactive D3.js visual graphs.</li>
+        <li>Implemented multi-factor defense: <strong>Two-Factor Authentication (2FA), scrypt key derivation</strong>, and fine-grained Role-Based Access Control (RBAC) ensuring strict evidentiary chain of custody.</li>
+        <li>Led application security hardening: remediated <strong>28 SonarCloud SAST vulnerabilities and 9 access-control findings</strong>; built comprehensive protections against OWASP Top 10 (SQLi, Stored/Reflected XSS, IDOR, SSRF, and Excel formula injection).</li>
+        <li>Developed high-priority investigation features including <strong>burst-transaction detection, cross-case suspect account tracking</strong>, and automated KYC-requisition generation for bank liaisons.</li>
+      </ul>
+    </div>
+
+    <!-- InternPe -->
+    <div class="item" style="margin-top: 3px;">
+      <div class="item-header">
+        <span class="item-title">InternPe</span>
+        <span class="item-date">Dec 2025 – Jan 2026</span>
+      </div>
+      <div class="item-subtitle">Cyber Security Intern (Certificate: IPI#69839) | Remote</div>
+      <ul class="bullets">
+        <li>Conducted practical vulnerability identification, defensive network telemetry analysis, and secure code audits on core web applications.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Key Projects -->
+  <section class="section">
+    <div class="section-title">Key Defensive Security Projects</div>
+
+    <!-- LabTrace SOC -->
+    <div class="item">
+      <div class="item-header">
+        <span class="item-title">LabTrace SOC — Central Hotspot Monitoring &amp; SIEM Server</span>
+        <span class="item-date">Oct 2026</span>
+      </div>
+      <div class="item-subtitle">Node.js, Express, SQLite (WAL), SSE, Windows Kernel ARP, Python 3, PowerShell</div>
+      <ul class="bullets">
+        <li>Architected a central defensive SOC server transforming a Windows workstation into a <strong>Mobile Hotspot SIEM monitor</strong> tracking connected client devices and observable flows in real time.</li>
+        <li>Implemented high-speed kernel neighbor discovery (<strong>&lt;100ms ARP table parsing</strong>) with NetBIOS hostname lookup and MAC OUI vendor resolution across 192.168.137.x subnets.</li>
+        <li>Engineered 4 explainable detection rules: <strong>NET-01</strong> (Connection Burst), <strong>NET-02</strong> (Port Scan), <strong>NET-03</strong> (SSH/SMB/RDP Management Probe), and <strong>NET-04</strong> (Bandwidth Spike).</li>
+        <li>Enforced strict opt-in privacy (ENG-02) with cross-platform endpoint agents (`hotspot-agent.py` &amp; `.ps1`), instant consent revocation, unalterable SHA-256 audit chaining, and 19 passing automated integration tests.</li>
+      </ul>
+    </div>
+
+    <!-- Railway Ticket Management -->
+    <div class="item" style="margin-top: 3px;">
+      <div class="item-header">
+        <span class="item-title">Secure Railway Reservation &amp; Identity Management System</span>
+        <span class="item-date">Nov 2025</span>
+      </div>
+      <div class="item-subtitle">Java, Apache Tomcat 9, MySQL (DBCP2), JWT, BCrypt, TOTP 2FA, QR Verification</div>
+      <ul class="bullets">
+        <li>Built an MVC web app on Tomcat 9 with connection-pooled MySQL; enforced <strong>JWT auth, BCrypt hashing, Google Authenticator TOTP 2FA</strong>, and cryptographic QR-code digital ticket validation.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Technical Skills -->
+  <section class="section">
+    <div class="section-title">Technical Skills</div>
+    <div class="skills-block">
+      <div class="skill-row">
+        <span class="skill-label">Security &amp; Forensics:</span>
+        <span class="skill-items">SAST (SonarCloud), OWASP Top 10 Hardening (XSS, SQLi, IDOR, SSRF), RBAC, SIEM &amp; Threat Detection, Windows Event Log Forensics (IDs 4624/4625), MITRE ATT&amp;CK, Cryptography (SHA-256, scrypt, BCrypt, JWT, TOTP 2FA), Fund Trail Analysis</span>
+      </div>
+      <div class="skill-row">
+        <span class="skill-label">Networking &amp; Protocols:</span>
+        <span class="skill-items">TCP/IP, UDP, ARP, DNS, DHCP, HTTP/HTTPS, SSH, SMB, RDP, Socket Programming, Packet Telemetry</span>
+      </div>
+      <div class="skill-row">
+        <span class="skill-label">Languages &amp; DB:</span>
+        <span class="skill-items">Python 3 (Flask), JavaScript (Node.js, Express, D3.js), Java, SQL (MySQL, SQLite WAL), PowerShell, C, HTML5/CSS3</span>
+      </div>
+      <div class="skill-row">
+        <span class="skill-label">Tools &amp; Platforms:</span>
+        <span class="skill-items">Git &amp; GitHub, SonarCloud, Npcap / Wireshark, Linux / Unix CLI, Windows Server, Apache Tomcat, SQLite WAL</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications & CTF Competitions -->
+  <section class="section">
+    <div class="section-title">Certifications &amp; CTF Competitions</div>
+    <ul class="bullets">
+      <li><strong>Tamil Nadu Police Cyber Crime Wing:</strong> Certificate of Internship awarded by <strong>B. Bala Naga Devi, IPS (Director General of Police)</strong> &amp; M. Meenakshi (SP, Cyber Arangam) for digital forensics &amp; application security engineering.</li>
+      <li><strong>H7CTF 2026 (H7TEX):</strong> Certificate of Participation (<strong>ID: H7CTF26-WR4B-Q7HJ-V4NS</strong>) in national Capture The Flag competition sponsored by OtterSec, Payatu, JSMON, and aisafe; solved challenges in web security, forensics, and cryptography.</li>
+      <li><strong>Sudarshan CTF (National Participation):</strong> Participated in national-level CTF hosted by <strong>NFSU Bhopal &amp; Ministry of Home Affairs, Govt. of India</strong>.</li>
+    </ul>
+  </section>
+
+  <!-- Education -->
+  <section class="section" style="margin-bottom: 0;">
+    <div class="section-title">Education</div>
+    <div class="item">
+      <div class="item-header">
+        <span class="item-title">Rajalakshmi Engineering College, Chennai (Anna University)</span>
+        <span class="item-date">Sep 2024 – May 2028</span>
+      </div>
+      <div class="item-subtitle">Bachelor of Engineering in Computer Science (Cybersecurity) — Pursuing</div>
+    </div>
+    <div class="item" style="margin-top: 2px;">
+      <div class="item-header">
+        <span class="item-title">Rosemary Matriculation Higher Secondary School, Tirunelveli</span>
+        <span class="item-date">2021 – 2022</span>
+      </div>
+      <div style="font-size: 8.3pt; color: var(--text);">Higher Secondary Certificate (HSC) — <strong>Score: 94.8%</strong> (Distinction)</div>
+    </div>
+  </section>
+</div>
+
+</body>
+</html>
